@@ -1,9 +1,13 @@
-Leap Motion Presention Control
+#Leap Motion Presention Control
 
-Currently works with:
+
+##Currently works with:
+
 1. reveal.js
 
-TODO:
+
+##TODO
+
 1. Identify pages with reveal by finding reveal script
     1. reveal.\*.js
 2. Only act in tab that has focus
