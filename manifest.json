@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"name": "Leap Presentation Chrome Extension",
+	"description": "Leap motion control of web-based presentations",
+	"version": "1.0",
+	"permissions": [
+		"http://lab.hakim.se/reveal-js/*",
+		"http://slid.es/*"
+	],
+	"content_scripts": [{
+		"matches": [
+			"http://lab.hakim.se/reveal-js/*",
+			"http://slid.es/*"
+		],
+		"js": [
+			"jquery.1.10.2.min.js",
+			"leap.0.8.1.js",
+			"leapcontrol.js"
+		]
+	}]
+}
