@@ -5,12 +5,14 @@
 	"version": "1.0",
 	"permissions": [
 		"http://lab.hakim.se/reveal-js/*",
-		"http://slid.es/*"
+		"http://slid.es/*",
+		"https://docs.google.com/presentation/*"
 	],
 	"content_scripts": [{
 		"matches": [
 			"http://lab.hakim.se/reveal-js/*",
-			"http://slid.es/*"
+			"http://slid.es/*",
+			"https://docs.google.com/presentation/*"
 		],
 		"js": [
 			"jquery.1.10.2.min.js",
