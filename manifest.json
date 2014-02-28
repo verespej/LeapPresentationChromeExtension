@@ -6,13 +6,15 @@
 	"permissions": [
 		"http://lab.hakim.se/reveal-js/*",
 		"http://slid.es/*",
-		"https://docs.google.com/presentation/*"
+		"https://docs.google.com/presentation/*",
+		"file:///C:/dev/*"
 	],
 	"content_scripts": [{
 		"matches": [
 			"http://lab.hakim.se/reveal-js/*",
 			"http://slid.es/*",
-			"https://docs.google.com/presentation/*"
+			"https://docs.google.com/presentation/*",
+			"file:///C:/dev/*"
 		],
 		"js": [
 			"jquery.1.10.2.min.js",

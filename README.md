@@ -1,5 +1,12 @@
 #Leap Motion Presention Control
 
+##Use:
+
+1. Connect your leap motion
+1. Modify manifest.js to grant permissions for whatever site the presentation is on
+1. Install the chrome extension
+1. Open the presentation in the browser where you installed this extension and swipe!
+
 
 ##Currently works with:
 
